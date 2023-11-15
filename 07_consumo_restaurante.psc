@@ -3,7 +3,6 @@
 //Se debe mostrar el pago de cada cliente y el total de todos los pagos.
 
 Algoritmo consumo_restaurante
-	
 	Definir consumo, tope_descuento,descuento, total_cuenta Como Real
 	Definir nro_clientes, aux Como Entero
 	nro_clientes <- 0
@@ -43,9 +42,7 @@ Algoritmo consumo_restaurante
 		total_cuenta <- total_cuenta + consumos[x+1] 
 		
 	Fin Para
-	
 	Mostrar "******************************************************************************"
 	Mostrar "El total de la cuenta es $", total_cuenta
 	Mostrar "******************************************************************************"
-	
 FinAlgoritmo
